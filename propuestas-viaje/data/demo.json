@@ -1,0 +1,78 @@
+[
+  {
+    "id": "demo-margarita-7Kq2",
+    "cliente": "Lucía",
+    "destino": "Isla Margarita",
+    "fechaDesde": "2027-03-04",
+    "fechaHasta": "2027-03-11",
+    "salida": "Córdoba",
+    "salidaCodigo": "COR",
+    "foto": "",
+    "etapa": "Reservando en noviembre",
+    "vuelos": [
+      { "tramo": "Ida", "origen": "Córdoba", "destino": "Isla Margarita", "salida": "Jue 4 · 03:40", "llegada": "Jue 4 · 13:36", "escalas": 1, "detalle": "Escala en Panamá · 1 h 23 min" },
+      { "tramo": "Vuelta", "origen": "Isla Margarita", "destino": "Córdoba", "salida": "Jue 11 · 14:46", "llegada": "Vie 12 · 02:40", "escalas": 1, "detalle": "Escala en Panamá · 1 h 39 min" }
+    ],
+    "incluye": [
+      { "icono": "avion", "texto": "Aéreo desde Córdoba con Copa Airlines" },
+      { "icono": "escudo", "texto": "Asistencia al viajero: médica USD 60.000, cancelación USD 2.000" },
+      { "icono": "bus", "texto": "Traslados aeropuerto – hotel – aeropuerto" },
+      { "icono": "comida", "texto": "All inclusive" }
+    ],
+    "asistencia": {
+      "nombre": "Assist Plus",
+      "coberturas": [
+        { "etiqueta": "Asistencia médica", "valor": "USD 60.000" },
+        { "etiqueta": "Preexistencias", "valor": "USD 10.000" },
+        { "etiqueta": "Cancelación", "valor": "USD 2.000 multicausa" },
+        { "etiqueta": "Pérdida de equipaje", "valor": "USD 1.200" },
+        { "etiqueta": "Medicamentos", "valor": "USD 750" },
+        { "etiqueta": "Zona", "valor": "Mundial, excepto país de residencia" },
+        { "etiqueta": "Odontología", "valor": "USD 500" },
+        { "etiqueta": "Demora de vuelo", "valor": "USD 200" }
+      ]
+    },
+    "hoteles": [
+      { "ciudad": "Isla Margarita", "nombre": "Hotel Playa Azul", "habitacion": "Triple", "regimen": "All inclusive", "desde": "2027-03-04", "hasta": "2027-03-11" }
+    ],
+    "precio": {
+      "moneda": "USD",
+      "sena": 2400,
+      "saldo": 1690,
+      "unidad": "por familia",
+      "nota": "Tarifa dinámica: el precio se confirma al reservar."
+    }
+  },
+  {
+    "id": "demo-bariloche-p9Xa",
+    "cliente": "Martín",
+    "destino": "Bariloche",
+    "fechaDesde": "2027-07-15",
+    "fechaHasta": "2027-07-20",
+    "salida": "Córdoba",
+    "salidaCodigo": "COR",
+    "foto": "",
+    "etapa": "Vacaciones de invierno",
+    "vuelos": [
+      { "tramo": "Ida", "origen": "Córdoba", "destino": "Bariloche", "salida": "Jue 15 · 08:10", "llegada": "Jue 15 · 10:25", "escalas": 0, "detalle": "Vuelo directo" },
+      { "tramo": "Vuelta", "origen": "Bariloche", "destino": "Córdoba", "salida": "Mar 20 · 17:40", "llegada": "Mar 20 · 19:50", "escalas": 0, "detalle": "Vuelo directo" }
+    ],
+    "incluye": [
+      { "icono": "avion", "texto": "Aéreo directo con equipaje en bodega" },
+      { "icono": "hotel", "texto": "5 noches con desayuno" },
+      { "icono": "excursion", "texto": "Excursión Circuito Chico" }
+    ],
+    "asistencia": null,
+    "hoteles": [
+      { "ciudad": "Bariloche", "nombre": "Hostería del Lago", "habitacion": "Doble", "regimen": "Desayuno", "desde": "2027-07-15", "hasta": "2027-07-20" }
+    ],
+    "precio": {
+      "moneda": "USD",
+      "sena": null,
+      "saldo": null,
+      "total": 1850,
+      "unidad": "por persona en base doble",
+      "nota": "Precio sujeto a disponibilidad al momento de reservar."
+    }
+  }
+]

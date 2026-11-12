@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/p/:id", "destination": "/api/p?id=:id" }],
+  "headers": [{ "source": "/p/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]
+}
